@@ -1,4 +1,8 @@
-package idle.game.generator.visualization.tool;
+package idle.game.generator.visualization.tool.domain.io.json;
+
+import idle.game.generator.visualization.tool.domain.Generator;
+import idle.game.generator.visualization.tool.domain.io.GeneratorWriter;
+import idle.game.generator.visualization.tool.io.FileWriter;
 
 public class GeneratorJSONWriter implements GeneratorWriter {
 
