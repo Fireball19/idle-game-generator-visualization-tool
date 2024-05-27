@@ -1,5 +1,8 @@
-package idle.game.generator.visualization.tool;
+package idle.game.generator.visualization.tool.ui;
 
+import idle.game.generator.visualization.tool.domain.Generator;
+import idle.game.generator.visualization.tool.domain.io.GeneratorReader;
+import idle.game.generator.visualization.tool.domain.io.GeneratorWriter;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.chart.LineChart;

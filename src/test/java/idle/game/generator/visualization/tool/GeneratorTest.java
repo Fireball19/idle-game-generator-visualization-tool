@@ -2,6 +2,7 @@ package idle.game.generator.visualization.tool;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import idle.game.generator.visualization.tool.domain.Generator;
 import org.junit.jupiter.api.Test;
 
 public class GeneratorTest {

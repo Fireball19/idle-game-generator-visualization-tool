@@ -15,7 +15,7 @@ dependencies {
 }
 
 application {
-    mainClassName = 'idle.game.generator.visualization.tool.App'
+    mainClassName = 'idle.game.generator.visualization.tool.GeneratorVisualizationTool'
 }
 
 javafx {
