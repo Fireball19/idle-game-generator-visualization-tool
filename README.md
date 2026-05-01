@@ -20,7 +20,7 @@ Thanks to Anthony Pecorella (The Math of Idle Games)!
 First you should clone the repository.
 
 ```
-git clone https://github.com/Ra-Coding/idle-game-generator-visualization-tool.git
+git clone https://github.com/Fireball19/idle-game-generator-visualization-tool.git
 ```
 
 Then use gradle to run the application.
