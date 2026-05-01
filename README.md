@@ -6,12 +6,11 @@
 
 ### Cost
 
-![costnext](https://user-images.githubusercontent.com/63670109/118549795-3a6c9180-b75c-11eb-8222-82ab2778e796.png)
-
+$cost_{next} = cost_{base} \times (rate_{growth})^{owned}$
 
 ### Production per second
 
-![productiontotal](https://user-images.githubusercontent.com/63670109/118549949-756ec500-b75c-11eb-8ba8-909dbae68a59.png)
+$production_{total} = ((production_{base} \times owned) \times multipliers) \div productiontime$
 
 Thanks to Anthony Pecorella (The Math of Idle Games)!
 
