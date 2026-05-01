@@ -1,9 +1,17 @@
 package idle.game.generator.visualization.tool;
 
+import idle.game.generator.visualization.tool.domain.io.GeneratorReader;
+import idle.game.generator.visualization.tool.domain.io.GeneratorWriter;
+import idle.game.generator.visualization.tool.domain.io.json.GeneratorJSONMapper;
+import idle.game.generator.visualization.tool.domain.io.json.GeneratorJSONReader;
+import idle.game.generator.visualization.tool.domain.io.json.GeneratorJSONWriter;
+import idle.game.generator.visualization.tool.io.FileReader;
+import idle.game.generator.visualization.tool.io.FileWriter;
+import idle.game.generator.visualization.tool.ui.UI;
 import javafx.application.Application;
 import javafx.stage.Stage;
- 
-public class App extends Application {
+
+public class GeneratorVisualizationTool extends Application {
  
     @Override public void start(Stage stage) {
       final FileReader fileReader = new FileReader();
@@ -20,6 +28,6 @@ public class App extends Application {
     }
  
     public static void main(String[] args) {
-    	Application.launch(App.class);
+    	Application.launch(GeneratorVisualizationTool.class);
     }
 }

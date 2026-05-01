@@ -1,6 +1,7 @@
-package idle.game.generator.visualization.tool;
+package idle.game.generator.visualization.tool.domain.io.json;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import idle.game.generator.visualization.tool.domain.Generator;
 
 public class GeneratorJSONMapper {
 

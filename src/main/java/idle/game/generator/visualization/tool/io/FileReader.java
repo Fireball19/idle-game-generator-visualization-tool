@@ -1,4 +1,4 @@
-package idle.game.generator.visualization.tool;
+package idle.game.generator.visualization.tool.io;
 
 import java.io.*;
 

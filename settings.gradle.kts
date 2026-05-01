@@ -1,0 +1,1 @@
+rootProject.name = "idle-game-generator-visualization-tool"

@@ -1,17 +1,16 @@
 # idle-game-generator-visualization-tool
 
-[![Java CI with Gradle](https://github.com/Ra-Coding/idle-game-generator-visualization-tool/actions/workflows/gradle.yml/badge.svg)](https://github.com/Ra-Coding/idle-game-generator-visualization-tool/actions/workflows/gradle.yml)
+[![Java CI with Gradle](https://github.com/Fireball19/idle-game-generator-visualization-tool/actions/workflows/gradle.yml/badge.svg)](https://github.com/Fireball19/idle-game-generator-visualization-tool/actions/workflows/gradle.yml)
 
 ## The mathematical formulas
 
 ### Cost
 
-![costnext](https://user-images.githubusercontent.com/63670109/118549795-3a6c9180-b75c-11eb-8222-82ab2778e796.png)
-
+$cost_{next} = cost_{base} \times (rate_{growth})^{owned}$
 
 ### Production per second
 
-![productiontotal](https://user-images.githubusercontent.com/63670109/118549949-756ec500-b75c-11eb-8ba8-909dbae68a59.png)
+$production_{total} = ((production_{base} \times owned) \times multipliers) \div productiontime$
 
 Thanks to Anthony Pecorella (The Math of Idle Games)!
 
@@ -20,10 +19,10 @@ Thanks to Anthony Pecorella (The Math of Idle Games)!
 First you should clone the repository.
 
 ```
-git clone https://github.com/Ra-Coding/idle-game-generator-visualization-tool.git
+git clone https://github.com/Fireball19/idle-game-generator-visualization-tool.git
 ```
 
-Then use gradle to run the application.
+Then use Gradle to run the application.
 
 ```
 ./gradlew run
@@ -31,4 +30,4 @@ Then use gradle to run the application.
 
 ## How it looks
 
-![example](https://user-images.githubusercontent.com/63670109/118520083-01232a00-b73a-11eb-800e-209120cd6073.png)
+![Screenshot of the idle-game-generator-visualization-tool](docs/screenshots/how_it_looks.png)
