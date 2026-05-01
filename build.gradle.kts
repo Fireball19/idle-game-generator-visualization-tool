@@ -1,7 +1,7 @@
 plugins {
     java
     application
-	id("org.openjfx.javafxplugin")
+    alias(libs.plugins.javafx)
 }
 
 version = "${property("appVersion")}"
@@ -12,11 +12,11 @@ repositories {
 }
 
 dependencies {
-    implementation("com.fasterxml.jackson.core:jackson-databind:${property("jacksonDatabindVersion")}")
+    implementation(libs.jackson.databind)
 
-    testImplementation("org.junit.jupiter:junit-jupiter:${property("junitJupiterVersion")}")
-    testImplementation("org.assertj:assertj-core:${property("assertjVersion")}")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher:${property("junitPlatformVersion")}")
+    testImplementation(libs.junit.jupiter)
+    testImplementation(libs.assertj.core)
+    testRuntimeOnly(libs.junit.platform.launcher)
 }
 
 application {
@@ -25,13 +25,13 @@ application {
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of("${property("javaVersion")}")
+        languageVersion = JavaLanguageVersion.of(libs.versions.java.get())
     }
 }
 
 javafx {
-    version = "${property("javaVersion")}"
-    modules = listOf<String>("javafx.controls")
+    version = libs.versions.java.get()
+    modules = listOf("javafx.controls")
 }
 
 tasks.withType<Test> {

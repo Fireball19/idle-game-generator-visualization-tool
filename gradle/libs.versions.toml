@@ -1,0 +1,16 @@
+[versions]
+java = "21"
+jackson = "2.21.3"
+junit = "6.0.3"
+assertj = "3.27.7"
+
+[libraries]
+jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit" }
+assertj-core = { module = "org.assertj:assertj-core", version.ref = "assertj" }
+
+[bundles]
+
+[plugins]
+javafx = { id = "org.openjfx.javafxplugin", version = "0.1.0" }
