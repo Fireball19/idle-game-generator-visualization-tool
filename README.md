@@ -22,7 +22,7 @@ First you should clone the repository.
 git clone https://github.com/Fireball19/idle-game-generator-visualization-tool.git
 ```
 
-Then use gradle to run the application.
+Then use Gradle to run the application.
 
 ```
 ./gradlew run
@@ -30,4 +30,4 @@ Then use gradle to run the application.
 
 ## How it looks
 
-![example](https://user-images.githubusercontent.com/63670109/118520083-01232a00-b73a-11eb-800e-209120cd6073.png)
+![Screenshot of the idle-game-generator-visualization-tool](docs/screenshots/how_it_looks.png)
