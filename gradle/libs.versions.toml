@@ -1,6 +1,6 @@
 [versions]
 java = "21"
-jackson = "2.21.3"
+jackson = "2.21.5"
 junit = "6.0.3"
 assertj = "3.27.7"
 
